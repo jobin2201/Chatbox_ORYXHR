@@ -13,12 +13,12 @@ A). Project structure should look like this:-
 B). Build the Docker image<BR>
 Run this in the terminal<BR>
 ```
-docker build -t flask-chatbot .
+docker build -t chatbot_apicalls .
 ```
 C). Run the Docker container<BR>
 After building the image successfully, run<BR>
 ```
-docker run -p 5000:5000 flask-chatbot
+docker run -d -p 5000:5000 chatbot_apicalls
 ```
 After Running, clicking on the link - http://127.0.0.1:5000/, it will show as :- <br>
 ![Link](images/1.png)<br><br>
@@ -28,8 +28,8 @@ docker ps
 ```
 Optional - To Stop and Remove the Old Container :- <br>
 ```
-docker stop flask-chatbot
-docker rm flask-chatbot
+docker stop chatbot_apicalls
+docker rm chatbot_apicalls
 ```
 
 D). Test API - using Postman <br>
@@ -84,13 +84,13 @@ curl -X POST http://127.0.0.1:5000/api/chat \
 
 F). (OPTIONAL) Push the image to Docker Hub - this repo is already pushed in my dockerhub:
 ```
+docker tag chatbot_apicalls jobin321/chatbot_apicalls:latest
 docker login
-docker tag flask-chatbot jobin321/flask-chatbot
-docker push jobin321/flask-chatbot
+docker push jobin321/chatbot_apicalls:latest
 
 ```
 Users can easily Pull the image:-<br>
 ```
-docker pull jobin321/flask-chatbot
-docker run -d -p 5000:5000 --name chatbot_container jobin321/flask-chatbot
+docker pull jobin321/chatbot_apicalls:latest
+docker run -d -p 5000:5000 jobin321/chatbot_apicalls
 ```
