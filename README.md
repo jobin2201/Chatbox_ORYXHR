@@ -59,14 +59,14 @@ From the dropdown next to "Text", choose JSON<br>
 Paste this JSON:<br>
     ```
     {
-      "message": "hello"
+      "message": "hii"
     }
     ```
 
 9. Send the request
 Click Send
 You should see a JSON response like: <br>
-![himessage](images/2.png)<br>
+![himessage](images/2.png)<br><br>
 ![goalsmessage](images/3.png)<br>
 
 E). otherwise - Test API - using Curl <br>
