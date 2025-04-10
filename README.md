@@ -28,8 +28,8 @@ docker ps
 ```
 Optional - To Stop and Remove the Old Container :- <br>
 ```
-docker stop chatbot_container
-docker rm chatbot_container
+docker stop flask-chatbot
+docker rm flask-chatbot
 ```
 
 D). Test API - using Postman <br>
@@ -84,12 +84,13 @@ curl -X POST http://127.0.0.1:5000/api/chat \
 
 F). (OPTIONAL) Push the image to Docker Hub - this repo is already pushed in my dockerhub:
 ```
-docker tag flask-chatbot yourusername/flask-chatbot
-docker push yourusername/flask-chatbot
+docker login
+docker tag flask-chatbot jobin321/flask-chatbot
+docker push jobin321/flask-chatbot
 
 ```
 Users can easily Pull the image:-<br>
 ```
-docker pull yourusername/flask-chatbot
-docker run -d -p 5000:5000 --name chatbot_container yourusername/flask-chatbot
+docker pull jobin321/flask-chatbot
+docker run -d -p 5000:5000 --name chatbot_container jobin321/flask-chatbot
 ```
