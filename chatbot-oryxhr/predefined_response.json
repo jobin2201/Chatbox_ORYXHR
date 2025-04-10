@@ -1,0 +1,145 @@
+{
+    "responses": {
+        "hello": {
+            "text": "Hello there! 👋 I'm your virtual assistant. Feel free to ask me how to create goals, complete appraisals, or navigate OryxHR. I'm here to help you make your workflow smoother!"
+        },
+        "hi": {
+            "text": "Hi! 😊 Nice to meet you. Let me know if you need help with goal setting, appraisals, or anything else in OryxHR."
+        },
+        "hey": {
+            "text": "Hey! 👋 I'm ready to assist you. Just type your question—whether it’s about goals, forms, or performance reviews."
+        },
+        "how to create goals": {
+            "text": "1. After Logging in to OryxHR and arrive at the home screen, click on the goals tab on the left side of the screen.  \n2. Click on 'Add Objective' then click on 'Create a new objective'.  \n3. Fill all the required information into the fields.  \n4. Once done, save and continue at the top right of the screen.  \n5. You have now created a goal. Well done.",
+            "image_url": "static/images/newemployee.png",
+            "image_prompt": "Here is a screenshot showing how to create goals in OryxHR."
+        },
+        "how to complete an appraisal form": {
+            "text": "1. On your homepage, you'll click on the 'Performance Review' box. An appraisal form would've been launched for you by the HR team.  \n2. You will find a form in your inbox. Click on the detail icon.  \n3. Rate all goals and competencies for yourself or your supervisee.  \n4. Use the rating box and select a rating.  \n5. Once done, send the form to your manager.  \n6. For the manager, send the form back to the supervisee for signature.  \n7. Once the form gets back to you, sign in the box at the bottom by leaving a comment",
+            "image_url": "static/images/newemployee.png",
+            "image_prompt": "This image illustrates the steps for completing an appraisal form in OryxHR."
+        },
+        "how to request leave": {
+            "text": "1. Click on the 'Leave' tab in the left menu.  \n2. Select 'Request Leave' and choose the leave type.  \n3. Fill in the required details, including start and end dates.  \n4. Add a reason for the leave request.  \n5. Click 'Submit' to send it for approval.",
+            "image_url": "static/images/leave_request.png",
+            "image_prompt": "This screenshot demonstrates how to request leave in OryxHR."
+        },
+        "how to update personal details": {
+            "text": "1. Navigate to the 'Profile' tab in the top right corner.  \n2. Click on 'Edit Profile'.  \n3. Update the necessary personal details.  \n4. Click 'Save Changes' to apply the updates.",
+            "image_url": "static/images/newemployee.png",
+            "image_prompt": "This image shows how to update your personal details in OryxHR."
+        }
+    },
+    "variations": {
+        "how to create goals?": [
+            "how do i create goals?",
+            "can you tell me how to create goals?",
+            "what is the process to create goals?",
+            "how can i create a goal?",
+            "steps to create goals?",
+            "guide me to create goals.",
+            "how do i set goals?",
+            "instructions to create goals?",
+            "how can goals be created?",
+            "what are the steps to create goals?",
+            "how to define a goal?",
+            "how do i add a new goal?",
+            "how to start a goal?",
+            "what is the procedure to create goals?",
+            "how do you make goals?",
+            "how can i make a goal?",
+            "help me create goals.",
+            "what's the way to create goals?",
+            "tell me how to make goals.",
+            "how do i create goals in oryxhr?",
+            "what's the process for creating goals in oryxhr?",
+            "how do i set up goals in the system?",
+            "how do i use the system to create goals?",
+            "can you help me set up a goal in oryxhr?",
+            "how to build a goal?",
+            "could you explain how to create goals?",
+            "do you know how to create goals?",
+            "can you walk me through creating goals?",
+            "is there a guide to create goals?",
+            "where do i go to create goals?",
+            "explain how to create goals.",
+            "show me how to create goals.",
+            "give me the steps to create goals.",
+            "tell me the process of creating goals.",
+            "teach me how to create goals.",
+            "i need help creating goals. how can i do it?",
+            "what’s the best way to create goals?",
+            "if i want to create a goal, what should i do?",
+            "where do i start to create goals?",
+            "how to create goals in simple steps?"
+        ],
+        "how to complete an appraisal form?": [
+            "how do i complete an appraisal form?",
+            "steps to complete an appraisal form?",
+            "what is the process for completing an appraisal form?",
+            "can you tell me how to complete an appraisal form?",
+            "how do i fill out an appraisal form?",
+            "guide me to complete an appraisal form.",
+            "how to complete my appraisal form?",
+            "instructions for completing the appraisal form?",
+            "what are the steps to complete an appraisal form?",
+            "how can i finish my appraisal form?",
+            "process for completing the appraisal form?",
+            "how do i rate goals in an appraisal form?",
+            "how to complete the performance review form?",
+            "steps for completing the performance review form?",
+            "can you walk me through the appraisal form?",
+            "how do i complete the appraisal form for my team?",
+            "what do i need to do to finish my appraisal form?",
+            "how to submit the appraisal form?",
+            "can you help me with the appraisal form process?",
+            "how can i evaluate goals in the appraisal form?",
+            "where do i go to fill out the appraisal form?",
+            "can you explain how to rate competencies in the appraisal form?"
+        ],
+        "how to request leave": [
+            "how do I request leave?",
+            "what are the steps to request leave?",
+            "how can I apply for leave?",
+            "guide me to request leave.",
+            "where do I request leave?",
+            "how to submit a leave request?",
+            "leave request procedure?",
+            "can you help me apply for leave?",
+            "what’s the process for requesting leave?",
+            "steps to apply for leave?",
+            "how do I take a leave?",
+            "how to ask for leave?",
+            "process to apply for leave?",
+            "instructions to request leave?",
+            "can you walk me through the leave request?",
+            "where can I apply for leave in OryxHR?",
+            "how do I send a leave application?",
+            "is there a way to request leave in the system?",
+            "what do I do to apply for leave?",
+            "how can I notify my manager about leave?"
+        ],
+        "how to update personal details": [
+            "how do I update my personal details?",
+            "where do I update my profile information?",
+            "how can I edit my personal info?",
+            "steps to change personal details?",
+            "guide me to update my details.",
+            "what’s the process to update my profile?",
+            "how do I modify my personal information?",
+            "how can I change my profile settings?",
+            "where can I edit my profile?",
+            "can you help me update my details?",
+            "how do I save changes to my personal details?",
+            "how to update my contact details?",
+            "what are the steps to change my profile info?",
+            "where do I go to update my information?",
+            "how do I update my account information?",
+            "can I edit my personal data in the system?",
+            "how to change my profile name or email?",
+            "what’s the method to update my details?",
+            "how do I correct my personal details?",
+            "how to modify my information in OryxHR?"
+        ]
+    }
+}
